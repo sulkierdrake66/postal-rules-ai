@@ -75,7 +75,7 @@ if query:
 
         try:
             response = client.models.generate_content(
-                model='gemini-2.5-flash',
+                model='gemini-3.6-flash',
                 contents=[
                     f"Context Documents:\n{full_context}\n\nUser Question: {query}"
                 ],
